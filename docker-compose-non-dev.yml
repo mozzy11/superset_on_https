@@ -83,7 +83,7 @@ services:
 
   nginx-superset:
     image: nginx:latest
-    container_name: nginx-gofr
+    container_name: nginx-superset
     restart: always
     ports:
       - 80:80
